@@ -81,7 +81,7 @@ body {
   margin-right: auto;
   background-color: #ffffff;
   font-family: Verdana;
-  font-size: 15px;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -141,6 +141,18 @@ img {
 }
 
 section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row::after {
   content: "";
   display: table;
   clear: both;
